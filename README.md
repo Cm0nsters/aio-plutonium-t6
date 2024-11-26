@@ -233,7 +233,7 @@ Projects used in this repository:
 
  - [ ] update dotnet dependancys to dotnet 8
  - [ ] fix password being commented out in config file
- - [ ] fix duplicate entry of RCON password in config file (how and why???)
+ - [ ] fix duplicate entry of RCON password in config file (how and why???) (edit: due to config duplicate line from xerxes-at lol, not a big deal but still weird)
  - [ ] fix issue when recreating container, change of config does not occur (possible fix to recreate the config upon recreation of container?)
  - [ ] find and fix any other things i think should be fixed
  - [ ] maybe touch on the other todo list?? 👀

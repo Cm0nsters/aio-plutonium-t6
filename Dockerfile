@@ -92,7 +92,8 @@ RUN chmod ugo+x /t6server/check_updater.sh
 ################################################################################
 
 # Installing dotnet
-RUN wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
+# change from https://github.com/tristanpn02/aio-plutonium-t6/blob/main/Dockerfile to pull latest ubuntu deb
+RUN wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
   dpkg -i packages-microsoft-prod.deb && \
   rm packages-microsoft-prod.deb
 

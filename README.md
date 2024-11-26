@@ -1,12 +1,12 @@
 # [AIO-Plutonium-T6](https://github.com/thejcpalma/aio-plutonium-t6) [An all-in-one plutonium server, Easier]
 
-[![Docker Image Build](https://github.com/thejcpalma/aio-plutonium-t6/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/thejcpalma/aio-plutonium-t6/actions/workflows/docker-image.yml/badge.svg?branch=main) [![Docker Build and Publish](https://github.com/thejcpalma/aio-plutonium-t6/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/thejcpalma/aio-plutonium-t6/actions/workflows/docker-publish.yml)
+
+> **NOTE:** This is a personal fork of [thejcpalma](https://github.com/thejcpalma/aio-plutonium-t6)'s lovely repo, created to try to update and fix some small issues to make a better experience <3
+
 
 Files Used to Build and run a [Plutonium](https://plutonium.pw) Server and a [IW4Admin](https://github.com/RaidMax/IW4M-Admin) Panel in docker
 
 This is intended to make hosting a ~lan~ server easier and faster, removing the worry of making your own full installation from scratch.
-
-> Trust me bro, I've been there. :sunglasses:
 
 This Repository is a work in progress state, so if you think there's an improvement to be made please contribute in the Issues Tab
 
@@ -16,8 +16,7 @@ This Repository is a work in progress state, so if you think there's an improvem
 
 - And it's only tested with the Zombie mode, but it should work with the Multiplayer mode as well (hopefully).
 
-> Don't quote me on the statements above :sweat_smile:
-
+  
 
 ## Setup
 

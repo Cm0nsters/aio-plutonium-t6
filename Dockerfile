@@ -55,10 +55,13 @@ RUN apt-get install -y \
 	xvfb \
 	aria2 \
 	apt-transport-https \
-	dotnet6 \
-	dotnet-sdk-6.0 \
-	aspnetcore-runtime-6.0 \
-	avahi-daemon \
+	# dotnet6 \
+	# dotnet-sdk-6.0 \
+	# aspnetcore-runtime-6.0 \
+	dotnet8 \
+ 	dotnet-sdk-8.0 \
+  	aspnetcor-runtime-8.0 \
+ 	avahi-daemon \
 	avahi-utils
 
 # Update the system

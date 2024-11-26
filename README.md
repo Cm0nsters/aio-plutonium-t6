@@ -24,8 +24,6 @@ Requirements:
 
  - Docker
     > Works in any system able to run [Docker](https://docs.docker.com/get-docker/).
- - Joy, lots of joy
-    > Yeah, as simple as that, no need to worry about anything else really :smile:
 
 
 ## Installation
@@ -231,8 +229,15 @@ Projects used in this repository:
 
 *Without their repositories, this repository would not exist. So thank you very much for your work.* :heart:
 
+## Cm0nster's fix/TODO List
 
-## TODO List
+ - [ ] update dotnet dependancys to dotnet 8
+ - [ ] fix password being commented out in config file
+ - [ ] fix issue when recreating container, change of config does not occur (possible fix to recreate the config upon recreation of container?)
+ - [ ] find and fix any other things i think should be fixed
+ - [ ] maybe touch on the other todo list?? 👀
+
+## thejcpalma's TODO List
 
  - [x] Add env to shell script for the server password
  - [ ] Fix README.md/Documentation with more links and useful information
